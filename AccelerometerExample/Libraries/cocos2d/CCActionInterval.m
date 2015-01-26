@@ -557,12 +557,12 @@
     // added to support overriding setRotation only
     if ((_startAngleX == _startAngleY) && (_diffAngleX == _diffAngleY))
     {
-        [_target setRotation:(_startAngleX + (_diffAngleX * t))];
+        [(CCNode *)_target setRotation:(_startAngleX + (_diffAngleX * t))];
     }
     else
     {
-        [_target setRotationalSkewX: _startAngleX + _diffAngleX * t];
-        [_target setRotationalSkewY: _startAngleY + _diffAngleY * t];
+        [(CCNode *)_target setRotationalSkewX: _startAngleX + _diffAngleX * t];
+        [(CCNode *)_target setRotationalSkewY: _startAngleY + _diffAngleY * t];
     }
 }
 @end
@@ -620,12 +620,12 @@
     // added to support overriding setRotation only
     if ((_startAngleX == _startAngleY) && (_angleX == _angleY))
     {
-        [_target setRotation:(_startAngleX + (_angleX * t))];
+        [(CCNode *)_target setRotation:(_startAngleX + (_angleX * t))];
     }
     else
     {
-        [_target setRotationalSkewX: (_startAngleX + _angleX * t )];
-        [_target setRotationalSkewY: (_startAngleY + _angleY * t )];
+        [(CCNode *)_target setRotationalSkewX: (_startAngleX + _angleX * t )];
+        [(CCNode *)_target setRotationalSkewY: (_startAngleY + _angleY * t )];
     }
 }
 
@@ -1077,7 +1077,7 @@ static inline CGFloat bezierat( float a, float b, float c, float d, CCTime t )
     // added to support overriding setScale only
     if ((_startScaleX == _startScaleY) && (_endScaleX == _endScaleY))
     {
-        [_target setScale:(_startScaleX + (_deltaX * t))];
+        [(CCNode *)_target setScale:(_startScaleX + (_deltaX * t))];
     }
     else
     {

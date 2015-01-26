@@ -1575,6 +1575,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Benjamin Encz";
+				TargetAttributes = {
+					62EEE2A818B6D0400093E12C = {
+						DevelopmentTeam = Z4999T6UJA;
+					};
+				};
 			};
 			buildConfigurationList = 62EEE2A418B6D0400093E12C /* Build configuration list for PBXProject "AccelerometerExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1961,6 +1966,7 @@
 				62EEE55218B6D0440093E12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62EEE55318B6D0440093E12C /* Build configuration list for PBXNativeTarget "AccelerometerExample" */ = {
 			isa = XCConfigurationList;
@@ -1969,6 +1975,7 @@
 				62EEE55518B6D0440093E12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
