@@ -1,9 +1,9 @@
 //
 //  MainScene.h
-//  MGWU
+//  MakeSchool
 //
 //  Created by Benjamin Encz on 11/12/13.
-//  Copyright MakeGamesWithUs 2014. Free to use for all purposes.
+//  Copyright MakeSchool 2014. Free to use for all purposes.
 //
 // -----------------------------------------------------------------------
 
