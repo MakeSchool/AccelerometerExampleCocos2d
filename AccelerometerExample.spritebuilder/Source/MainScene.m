@@ -23,13 +23,13 @@
     _label= [CCLabelTTF labelWithString:@"X" fontName:@"ArialMT" fontSize:48];
     [self addChild:_label];
     _motionManager = [[CMMotionManager alloc] init];
-    _screen = [CCDirector sharedDirector].viewSize;
 }
 
 - (void)onEnter
 {
     [super onEnter];
     
+    _screen = self.contentSizeInPoints;
     _label.position = ccp(_screen.width/2, _screen.height/2);
     
     [_motionManager startAccelerometerUpdates];
