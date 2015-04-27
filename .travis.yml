@@ -1,3 +1,4 @@
 language: objective-c
-xcode_project: AccelerometerExample.spritebuilder/AccelerometerExample.xcodeproj
-xcode_scheme: AccelerometerExample
+
+script:
+  - xctool -project AccelerometerExample.spritebuilder/AccelerometerExample.xcodeproj -scheme AccelerometerExample -sdk iphonesimulator build test CODE_SIGNING_REQUIRED=NO
