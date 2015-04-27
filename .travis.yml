@@ -1,3 +1,3 @@
 language: objective-c
-xcode_project: AccelerometerExample.xcodeproj
+xcode_project: AccelerometerExample.spritebuilder/AccelerometerExample.xcodeproj
 xcode_scheme: AccelerometerExample
